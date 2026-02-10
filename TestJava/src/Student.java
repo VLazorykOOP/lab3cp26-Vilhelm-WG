@@ -20,6 +20,10 @@ class Student {
         System.out.print(name + " " + surname + " (" + university.getName() + ") [" + state + "]: ");
         state.study();
     }
+    // Додай цей метод у клас Student
+    public void payTuition() {
+        state.payTuition();
+    }
 }
 
 // Abstract Builder
